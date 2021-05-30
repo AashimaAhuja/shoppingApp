@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> Tests should render App Component 1`] = `
+<div
+  className="App"
+>
+  <Header
+    visibleProducts={Array []}
+  />
+  <div
+    className="loading"
+  >
+    Loading
+  </div>
+</div>
+`;
+
+exports[`<App/> Tests should render App Component with default props 1`] = `
+<div
+  className="App"
+>
+  <Header
+    visibleProducts={
+      Array [
+        Object {
+          "id": 1,
+          "isLiked": false,
+          "name": "prod 1",
+        },
+        Object {
+          "id": 2,
+          "isLiked": true,
+          "name": "prod 1",
+        },
+        Object {
+          "id": 3,
+          "isLiked": true,
+          "name": "prod 1",
+        },
+        Object {
+          "id": 4,
+          "isLiked": true,
+          "name": "prod 1",
+        },
+        Object {
+          "id": 5,
+          "isLiked": false,
+          "name": "prod 1",
+        },
+      ]
+    }
+  />
+  <main>
+    <ProductsTitle
+      productsCount={5}
+      showSoldItems={true}
+    />
+    <CardList
+      products={
+        Array [
+          Object {
+            "id": 1,
+            "isLiked": false,
+            "name": "prod 1",
+          },
+          Object {
+            "id": 2,
+            "isLiked": true,
+            "name": "prod 1",
+          },
+          Object {
+            "id": 3,
+            "isLiked": true,
+            "name": "prod 1",
+          },
+          Object {
+            "id": 4,
+            "isLiked": true,
+            "name": "prod 1",
+          },
+          Object {
+            "id": 5,
+            "isLiked": false,
+            "name": "prod 1",
+          },
+        ]
+      }
+    />
+  </main>
+</div>
+`;
+
+exports[`<App/> Tests should render App Component with is Loading true 1`] = `
+<div
+  className="App"
+>
+  <Header
+    visibleProducts={Array []}
+  />
+  <div
+    className="loading"
+  >
+    Loading
+  </div>
+</div>
+`;

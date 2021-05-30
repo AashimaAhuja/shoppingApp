@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsTitle/> Tests should handle ProductsTitle button click 1`] = `
+<div
+  className="products-title"
+>
+  <span>
+    1
+     Results
+  </span>
+  <button
+    onClick={[MockFunction]}
+  >
+    Show Sold Items
+  </button>
+</div>
+`;
+
+exports[`<ProductsTitle/> Tests should handle ProductsTitle when showSoldItems is false 1`] = `
+<div
+  className="products-title"
+>
+  <span>
+    1
+     Results
+  </span>
+  <button
+    onClick={[MockFunction]}
+  >
+    Show Sold Items
+  </button>
+</div>
+`;
+
+exports[`<ProductsTitle/> Tests should handle ProductsTitle when showSoldItems is true 1`] = `
+<div
+  className="products-title"
+>
+  <span>
+    1
+     Results
+  </span>
+  <button
+    onClick={[MockFunction]}
+  >
+    Hide Sold Items
+  </button>
+</div>
+`;
+
+exports[`<ProductsTitle/> Tests should render ProductsTitle Component 1`] = `
+<div
+  className="products-title"
+>
+  <span>
+     Results
+  </span>
+  <button>
+    Show Sold Items
+  </button>
+</div>
+`;

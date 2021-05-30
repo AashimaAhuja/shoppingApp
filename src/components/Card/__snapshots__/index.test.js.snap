@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card/> Tests should render Card Component 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt />
+    <dt />
+    <dt />
+    <dt />
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with button click and product not sold 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with button clikc and product sold 1`] = `
+<div
+  className="product-card sold"
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with default Props 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with product is not liked 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with product liked 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Unlike
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with product not sold 1`] = `
+<div
+  className="product-card "
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;
+
+exports[`<Card/> Tests should render Card Component with product sold 1`] = `
+<div
+  className="product-card sold"
+>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="card"
+      src="imageUrl"
+    />
+    <label>
+      SOLD
+    </label>
+    <button
+      onClick={[Function]}
+    >
+      Like
+    </button>
+  </div>
+  <dl
+    className="product-info"
+  >
+    <dt>
+      Prod 1
+    </dt>
+    <dt>
+      Brand 1
+    </dt>
+    <dt>
+      30
+    </dt>
+    <dt>
+      30
+    </dt>
+  </dl>
+</div>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardList/> Tests should render CardList Component 1`] = `
+<div
+  className="productList"
+/>
+`;
+
+exports[`<CardList/> Tests should render CardList Component with default Props 1`] = `
+<div
+  className="productList"
+>
+  <Card
+    key="1"
+    onProductLike={[MockFunction]}
+    product={
+      Object {
+        "brand": "Brand 1",
+        "id": 1,
+        "img": "imageUrl",
+        "isLiked": false,
+        "name": "Prod 1",
+        "price": 30,
+        "size": 30,
+        "sold": false,
+      }
+    }
+  />
+  <Card
+    key="2"
+    onProductLike={[MockFunction]}
+    product={
+      Object {
+        "brand": "Brand 1",
+        "id": 2,
+        "img": "imageUrl",
+        "isLiked": false,
+        "name": "Prod 1",
+        "price": 30,
+        "size": 30,
+        "sold": false,
+      }
+    }
+  />
+  <Card
+    key="3"
+    onProductLike={[MockFunction]}
+    product={
+      Object {
+        "brand": "Brand 1",
+        "id": 3,
+        "img": "imageUrl",
+        "isLiked": false,
+        "name": "Prod 1",
+        "price": 30,
+        "size": 30,
+        "sold": false,
+      }
+    }
+  />
+  <Card
+    key="4"
+    onProductLike={[MockFunction]}
+    product={
+      Object {
+        "brand": "Brand 1",
+        "id": 4,
+        "img": "imageUrl",
+        "isLiked": false,
+        "name": "Prod 1",
+        "price": 30,
+        "size": 30,
+        "sold": false,
+      }
+    }
+  />
+</div>
+`;

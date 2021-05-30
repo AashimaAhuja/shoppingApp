@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> Tests should render Header Component 1`] = `
+<header
+  className="app-header"
+>
+  <div
+    className="likes-count"
+    onClick={[Function]}
+  >
+    <span>
+      Likes 
+      0
+    </span>
+    <dl
+      className="liked-items "
+    />
+  </div>
+</header>
+`;
+
+exports[`<Header/> Tests should render Header Component with showLikedItems as true 1`] = `
+<header
+  className="app-header"
+>
+  <div
+    className="likes-count"
+    onClick={[Function]}
+  >
+    <span>
+      Likes 
+      4
+    </span>
+    <dl
+      className="liked-items  active"
+    >
+      <dt
+        key="1"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="2"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="3"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="4"
+      >
+        prod 1
+      </dt>
+    </dl>
+  </div>
+</header>
+`;
+
+exports[`<Header/> Tests should render Header Component with visible products 1`] = `
+<header
+  className="app-header"
+>
+  <div
+    className="likes-count"
+    onClick={[Function]}
+  >
+    <span>
+      Likes 
+      4
+    </span>
+    <dl
+      className="liked-items "
+    >
+      <dt
+        key="1"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="2"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="3"
+      >
+        prod 1
+      </dt>
+      <dt
+        key="4"
+      >
+        prod 1
+      </dt>
+    </dl>
+  </div>
+</header>
+`;
